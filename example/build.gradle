@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "io.chthonic.stringstore"
+        applicationId "io.chthonic.valuestore.stringstore"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode 1

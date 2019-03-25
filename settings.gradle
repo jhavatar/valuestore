@@ -1,1 +1,1 @@
-include ':example', ':stringstore', ':valuestore'
+include ':example', ':stringstore', ':core'

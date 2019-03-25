@@ -3,10 +3,10 @@ package io.chthonic.valuestore.example
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
-import io.chthonic.stringstore.CacheStorageStore
-import io.chthonic.stringstore.InternalStorageStore
-import io.chthonic.stringstore.PrefsStore
-import io.chthonic.stringstore.StringStore
+import io.chthonic.valuestore.stringstore.CacheStorageStore
+import io.chthonic.valuestore.stringstore.InternalStorageStore
+import io.chthonic.valuestore.stringstore.PrefsStore
+import io.chthonic.valuestore.stringstore.StringStore
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
