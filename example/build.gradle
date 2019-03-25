@@ -33,7 +33,7 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.1'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
 
-    implementation 'com.github.jhavatar.valuestore:stringstore:master-SNAPSHOT'
+    implementation "com.github.jhavatar.valuestore:stringstore:${rootProject.ext.version_name}"
 //    implementation project(':stringstore')
 
     testImplementation 'junit:junit:4.12'
