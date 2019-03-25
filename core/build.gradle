@@ -4,6 +4,8 @@ apply plugin: 'kotlin-android'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'org.jetbrains.dokka'
 
+version = rootProject.ext.version_name
+group = rootProject.ext.group
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 

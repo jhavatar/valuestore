@@ -33,8 +33,15 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.1'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
 
+    implementation 'com.github.jhavatar.valuestore:stringstore:master-SNAPSHOT'
+//    implementation project(':stringstore')
+
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.0-alpha4'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0-alpha4'
-    implementation project(':stringstore')
+
+}
+
+repositories {
+    maven { url "https://jitpack.io" }
 }
