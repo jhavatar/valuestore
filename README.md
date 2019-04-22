@@ -1,7 +1,7 @@
 [![](https://jitpack.io/v/jhavatar/valuestore.svg)](https://jitpack.io/#jhavatar/valuestore)
 
 # valuestore
-Simple interface for storing values. 
+A simple interface for storing values. 
 
 ```kotlin
 interface ValueStore<T> {
